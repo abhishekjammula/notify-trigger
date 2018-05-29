@@ -14,6 +14,6 @@ pipeline {
     }
   }
   triggers {
-    eventTrigger(simpleMatch('beeEvent'))
+    eventTrigger(simpleMatch('abhishek-notifyEvent'))
   }
 }
